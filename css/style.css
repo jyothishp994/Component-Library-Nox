@@ -383,7 +383,8 @@ font-family: 'Rowdies', cursive;
 /*Badge start*/
 
 .main-container-body-item-display-component-box-item.badge-with-icon {
-	gap: 30%;
+	gap: 5rem;
+	padding: 1rem;
 }
 
 .shopping-cart.badge-num,
@@ -597,7 +598,7 @@ font-family: 'Rowdies', cursive;
 
 .button-icon-heart {
 	color: Red;
-	font-size: 5rem;
+	font-size: 3rem;
 }
 
 .button-icon-share-button {
