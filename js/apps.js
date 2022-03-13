@@ -26,7 +26,7 @@ if(modalvar)
 {
 modalvar.addEventListener("click", ()=>
 {
-    modal_box_var.style.display="block";
+    modal_box_var.style.display="flex";
 
 }
 );

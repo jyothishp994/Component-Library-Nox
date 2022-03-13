@@ -918,11 +918,10 @@ font-family: 'Rowdies', cursive;
 
 .modal-box {
 	position: fixed;
-	left: 50%;
-	top: 50%;
 	background-color: blueviolet;
 	z-index: 200;
 	color: white;
+	align-self: center;
 }
 
 .overlay-modal {
@@ -934,6 +933,7 @@ font-family: 'Rowdies', cursive;
 	height: 100%;
 	width: 100%;
 	display: none;
+	justify-content: center;
 }
 
 .modal-box-header {
@@ -1116,6 +1116,9 @@ font-family: 'Rowdies', cursive;
 }
 
 @media only screen and (max-width: 900px) {
+	.main-container-body-item-display-component-box-item.card-component-ver {
+		flex-direction: column;
+	}
 	.main-container-body-item-display-component-box-item.normal-list ul{
 		padding: 0;
 	}
