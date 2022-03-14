@@ -1024,14 +1024,15 @@ font-family: 'Rowdies', cursive;
 
 
 /*grid start template area*/
-
+.main-container-body-item-display-component-box-item.grid-container{
+	justify-content: center;
+}
 .grid-layout-wrapper-template {
 	display: grid;
-	gap: 20px;
-	grid-template-columns: 200px 1fr;
+	justify-content: center;
 	grid-template-areas: "grid-layout-temp-header grid-layout-temp-header grid-layout-temp-header" "grid-layout-temp-sidebar-left grid-layout-temp-content grid-layout-temp-sidebar-right" "grid-layout-temp-sidebar-left grid-layout-temp-content grid-layout-temp-sidebar-right" "grid-layout-temp-footer grid-layout-temp-footer grid-layout-temp-footer";
 	height: 50vh;
-	width: 100%;
+	gap:0.2rem;
 }
 
 .grid-layout-temp-header {
@@ -1069,7 +1070,7 @@ font-family: 'Rowdies', cursive;
 
 .grid-layout-wrapper {
 	display: grid;
-	gap: 20px;
+	gap: 0.2rem;
 	width: 100%;
 }
 
@@ -1116,6 +1117,7 @@ font-family: 'Rowdies', cursive;
 }
 
 @media only screen and (max-width: 900px) {
+
 	.main-container-body-item-display-component-box-item.card-component-ver {
 		flex-direction: column;
 	}
