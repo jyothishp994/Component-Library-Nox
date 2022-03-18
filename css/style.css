@@ -143,103 +143,103 @@ font-family: 'Rowdies', cursive;
 
 .avatar-circular-xlarge {
 	background-image: url('http://i.stack.imgur.com/Dj7eP.jpg');
-	width: 150px;
-	height: 150px;
+	width: 9.375rem;
+	height: 9.375rem;
 	background-size: cover;
 	border-radius: 50%;
 }
 
 .avatar-circular-large {
 	background-image: url('http://i.stack.imgur.com/Dj7eP.jpg');
-	width: 125px;
-	height: 125px;
+	width: 7.812rem;
+	height: 7.812rem;
 	background-size: cover;
 	border-radius: 50%;
 }
 
 .avatar-circular-short {
 	background-image: url('http://i.stack.imgur.com/Dj7eP.jpg');
-	width: 75px;
-	height: 75px;
+	width: 4.6875rem;
+	height: 4.6875rem;
 	background-size: cover;
 	border-radius: 50%;
 }
 
 .avatar-circular-medium {
 	background-image: url('http://i.stack.imgur.com/Dj7eP.jpg');
-	width: 100px;
-	height: 100px;
+	width: 6.25rem;
+	height: 6.25rem;
 	background-size: cover;
 	border-radius: 50%;
 }
 
 .avatar-square-xlarge {
 	background-image: url('http://i.stack.imgur.com/Dj7eP.jpg');
-	width: 150px;
-	height: 150px;
+	width: 9.375rem;
+	height: 9.375rem;
 	background-size: cover;
 	border-radius: 1rem;
 }
 
 .avatar-square-large {
 	background-image: url('http://i.stack.imgur.com/Dj7eP.jpg');
-	width: 125px;
-	height: 125px;
+	width: 7.812rem;
+	height: 7.812rem;
 	background-size: cover;
 	border-radius: 1rem;
 }
 
 .avatar-square-short {
 	background-image: url('http://i.stack.imgur.com/Dj7eP.jpg');
-	width: 75px;
-	height: 75px;
+	width: 4.6875rem;
+	height: 4.6875rem;
 	background-size: cover;
 	border-radius: 1rem;
 }
 
 .avatar-square-medium {
 	background-image: url('http://i.stack.imgur.com/Dj7eP.jpg');
-	width: 100px;
-	height: 100px;
+	width: 6.25rem;
+	height: 6.25rem;
 	background-size: cover;
 	border-radius: 1rem;
 }
 
 .avatar-square-xlarge {
 	background-image: url('http://i.stack.imgur.com/Dj7eP.jpg');
-	width: 150px;
-	height: 150px;
+	width: 9.375rem;
+	height: 9.375rem;
 	background-size: cover;
 	border-radius: 1rem;
 }
 
 .avatar-square-large {
 	background-image: url('http://i.stack.imgur.com/Dj7eP.jpg');
-	width: 125px;
-	height: 125px;
+	width: 7.812rem;
+	height: 7.812rem;
 	background-size: cover;
 	border-radius: 1rem;
 }
 
 .avatar-square-short {
 	background-image: url('http://i.stack.imgur.com/Dj7eP.jpg');
-	width: 75px;
-	height: 75px;
+	width: 4.6875rem;
+	height: 4.6875rem;
 	background-size: cover;
 	border-radius: 1rem;
 }
 
 .avatar-square-medium {
 	background-image: url('http://i.stack.imgur.com/Dj7eP.jpg');
-	width: 100px;
-	height: 100px;
+	width: 6.25rem;
+	height: 6.25rem;
 	background-size: cover;
 	border-radius: 1rem;
 }
 
 .avatar-text-xlarge {
-	width: 150px;
-	height: 150px;
+	width: 9.375rem;
+	height: 9.375rem;
 	background-color: blue;
 	border-radius: 50%;
 	position: relative;
@@ -254,8 +254,8 @@ font-family: 'Rowdies', cursive;
 }
 
 .avatar-text-large {
-	width: 125px;
-	height: 125px;
+	width: 7.812rem;
+	height: 7.812rem;
 	border-radius: 50%;
 	background-color: blue;
 	border-radius: 50%;
@@ -271,8 +271,8 @@ font-family: 'Rowdies', cursive;
 }
 
 .avatar-text-short {
-	width: 75px;
-	height: 75px;
+	width: 4.6875rem;
+	height: 4.6875rem;
 	border-radius: 50%;
 	background-color: blue;
 	border-radius: 50%;
@@ -288,8 +288,8 @@ font-family: 'Rowdies', cursive;
 }
 
 .avatar-text-medium {
-	width: 100px;
-	height: 100px;
+	width: 6.25rem;
+	height: 6.25rem;
 	border-radius: 50%;
 	background-color: blue;
 	border-radius: 50%;
@@ -954,7 +954,7 @@ font-family: 'Rowdies', cursive;
 
 .modal-box-content {
 	padding: 1rem;
-	min-height: 100px;
+	min-height: 6.25rem;
 }
 
 .modal-box-header .icon-cancel {
