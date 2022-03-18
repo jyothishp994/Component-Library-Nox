@@ -1,16 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo&family=PT+Sans&family=Roboto:wght@500&family=Rowdies:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Heebo&family=PT+Sans&display=swap');
 :root {
-	--header: lightblue;
-	--main-font: 'Rowdies', cursive;
-	--sub-font1: 'Heebo', sans-serif;
-	--sub-font2: 'PT Sans', sans-serif;
-	--main-background-color:lightgrey;
-}
-
+    --header: lightblue;
+  }
+  
 body {
 	margin: 0 auto;
-	font-family: var(--main-font);
+	font-family: 'Rowdies', cursive;
 }
 
 .headermain {
@@ -50,8 +46,8 @@ body {
 	background-color: black;
 	margin-bottom: 0;
 	color: white;
-	font-family: var(--sub-font1);
-	font-family: var(--sub-font2);
+	font-family: 'Heebo', sans-serif;
+	font-family: 'PT Sans', sans-serif;
 }
 
 .main-container {
@@ -78,15 +74,15 @@ body {
 
 .main-container-nav-menu-item {
 	padding: 1rem;
-	font-family: var(--sub-font1);
-	font-family: var(--sub-font2);
+	font-family: 'Heebo', sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	text-align: center;
 }
 
 .main-container-body-desc,
 .main-container-body-item-desc {
-	font-family: var(--sub-font1);
-	font-family: var(--sub-font2);
+	font-family: 'Heebo', sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	font-size: 1rem;
 }
 
@@ -99,7 +95,7 @@ a:active {
 }
 
 .main-container-nav-menu-item:hover {
-	background-color: var(--main-background-color);;
+	background-color: grey;
 	cursor: pointer;
 	border-radius: 1rem;
 	color: white;
@@ -111,7 +107,7 @@ a:active {
 }
 
 .main-container-body-heading {
-	font-family: var(--main-font);
+font-family: 'Rowdies', cursive;
 }
 
 .main-container-body-heading,
@@ -126,7 +122,7 @@ a:active {
 
 .main-container-body-item-display-component-box {
 	height: auto;
-	background-color: var(--main-background-color);;
+	background-color: lightgrey;
 	border-radius: 1rem;
 	padding: 1rem;
 }
@@ -147,103 +143,103 @@ a:active {
 
 .avatar-circular-xlarge {
 	background-image: url('http://i.stack.imgur.com/Dj7eP.jpg');
-	width: 9.37rem;
-	height: 9.37rem;
+	width: 150px;
+	height: 150px;
 	background-size: cover;
 	border-radius: 50%;
 }
 
 .avatar-circular-large {
 	background-image: url('http://i.stack.imgur.com/Dj7eP.jpg');
-	width: 7.81rem;
-	height: 7.81rem;
+	width: 125px;
+	height: 125px;
 	background-size: cover;
 	border-radius: 50%;
 }
 
 .avatar-circular-short {
 	background-image: url('http://i.stack.imgur.com/Dj7eP.jpg');
-	width: 4.68rem;
-	height: 4.68rem;
+	width: 75px;
+	height: 75px;
 	background-size: cover;
 	border-radius: 50%;
 }
 
 .avatar-circular-medium {
 	background-image: url('http://i.stack.imgur.com/Dj7eP.jpg');
-	width: 6.25rem;
-	height: 6.25rem;
+	width: 100px;
+	height: 100px;
 	background-size: cover;
 	border-radius: 50%;
 }
 
 .avatar-square-xlarge {
 	background-image: url('http://i.stack.imgur.com/Dj7eP.jpg');
-	width: 9.37rem;
-	height: 9.37rem;
+	width: 150px;
+	height: 150px;
 	background-size: cover;
 	border-radius: 1rem;
 }
 
 .avatar-square-large {
 	background-image: url('http://i.stack.imgur.com/Dj7eP.jpg');
-	width: 7.81rem;
-	height: 7.81rem;
+	width: 125px;
+	height: 125px;
 	background-size: cover;
 	border-radius: 1rem;
 }
 
 .avatar-square-short {
 	background-image: url('http://i.stack.imgur.com/Dj7eP.jpg');
-	width: 4.68rem;
-	height: 4.68rem;
+	width: 75px;
+	height: 75px;
 	background-size: cover;
 	border-radius: 1rem;
 }
 
 .avatar-square-medium {
 	background-image: url('http://i.stack.imgur.com/Dj7eP.jpg');
-	width: 6.25rem;
-	width: 6.25rem;
+	width: 100px;
+	height: 100px;
 	background-size: cover;
 	border-radius: 1rem;
 }
 
 .avatar-square-xlarge {
 	background-image: url('http://i.stack.imgur.com/Dj7eP.jpg');
-	width: 9.37rem;
-	height: 9.37rem;
+	width: 150px;
+	height: 150px;
 	background-size: cover;
 	border-radius: 1rem;
 }
 
 .avatar-square-large {
 	background-image: url('http://i.stack.imgur.com/Dj7eP.jpg');
-	width: 7.81rem;
-	height: 7.81rem;
+	width: 125px;
+	height: 125px;
 	background-size: cover;
 	border-radius: 1rem;
 }
 
 .avatar-square-short {
 	background-image: url('http://i.stack.imgur.com/Dj7eP.jpg');
-	width: 4.68rem;
-	height: 4.68rem;
+	width: 75px;
+	height: 75px;
 	background-size: cover;
 	border-radius: 1rem;
 }
 
 .avatar-square-medium {
 	background-image: url('http://i.stack.imgur.com/Dj7eP.jpg');
-	width: 6.25rem;
-	height: 6.25rem;
+	width: 100px;
+	height: 100px;
 	background-size: cover;
 	border-radius: 1rem;
 }
 
 .avatar-text-xlarge {
-	width: 9.37rem;
-	height: 9.37rem;
+	width: 150px;
+	height: 150px;
 	background-color: blue;
 	border-radius: 50%;
 	position: relative;
@@ -258,8 +254,8 @@ a:active {
 }
 
 .avatar-text-large {
-	width: 7.81rem;
-	height: 7.81rem;
+	width: 125px;
+	height: 125px;
 	border-radius: 50%;
 	background-color: blue;
 	border-radius: 50%;
@@ -275,8 +271,8 @@ a:active {
 }
 
 .avatar-text-short {
-	width: 4.68rem;
-	height: 4.68rem;
+	width: 75px;
+	height: 75px;
 	border-radius: 50%;
 	background-color: blue;
 	border-radius: 50%;
@@ -292,8 +288,8 @@ a:active {
 }
 
 .avatar-text-medium {
-	width: 6.25rem;
-	height: 6.25rem;
+	width: 100px;
+	height: 100px;
 	border-radius: 50%;
 	background-color: blue;
 	border-radius: 50%;
@@ -316,8 +312,8 @@ a:active {
 
 .main-container-body-item-display-component-box-item.alert {
 	flex-direction: column;
-	font-family: var(--sub-font1);
-	font-family: var(--sub-font2);
+	font-family: 'Heebo', sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	font-size: 1rem;
 	margin: 1rem;
 }
@@ -514,16 +510,16 @@ a:active {
 
 .shopping-cart {
 	background-image: url('.././assets/cart.png');
-	width: 4.37rem;
-	height: 4.37rem;
+	width: 70px;
+	height: 70px;
 	background-size: cover;
 	border-radius: 50%;
 }
 
 .alert-icon-badge {
 	background-image: url('.././assets/bell.png');
-	width: 4.37rem;
-	height: 4.37rem;
+	width: 70px;
+	height: 70px;
 	background-size: cover;
 	border-radius: 50%;
 }
@@ -558,8 +554,8 @@ a:active {
 }
 
 .button-float {
-	width: 5rem;
-	height: 5rem;
+	width: 80px;
+	height: 80px;
 	background-size: cover;
 	cursor: pointer;
 	background-color: navy;
@@ -595,8 +591,8 @@ a:active {
 	cursor: pointer;
 	font-weight: bolder;
 	border: none;
-	height: 5rem;
-	width: 5rem;
+	height: 80px;
+	width: 80px;
 	border-radius: 1rem;
 }
 
@@ -623,7 +619,7 @@ a:active {
 
 .overlay {
 	position: absolute;
-	background-color: var(--main-background-color);;
+	background-color: grey;
 	z-index: 100;
 	width: 100%;
 	opacity: 80%;
@@ -668,7 +664,7 @@ a:active {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	min-height: 12.5rem;
+	min-height: 200px;
 }
 
 .card-header {
@@ -693,14 +689,14 @@ a:active {
 
 .card-seller {
 	padding: 1rem;
-	font-family: var(--sub-font1);
-	font-family: var(--sub-font2);
+	font-family: 'Heebo', sans-serif;
+	font-family: 'PT Sans', sans-serif;
 }
 
 .card-seller-desc {
 	padding: 1rem;
-	font-family: var(--sub-font1);
-	font-family: var(--sub-font2);
+	font-family: 'Heebo', sans-serif;
+	font-family: 'PT Sans', sans-serif;
 }
 
 .card-seller-price {
@@ -731,9 +727,7 @@ a:active {
 	;
 }
 
-.font-family: 'Rowdies',
-cursive;
-{
+.font-family: 'Rowdies', cursive; {
 	position: absolute;
 	background-color: red;
 	color: yellow;
@@ -749,18 +743,16 @@ cursive;
 	box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
 
-.badged-offer-card {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	font-size: 1rem;
-	background-color: red;
-	color: white;
-	padding: 1rem;
-	border-radius: 0.9rem;
+.badged-offer-card{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 1rem;
+    background-color: red;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.9rem;
 }
-
-
 /*Card end*/
 
 
@@ -809,26 +801,26 @@ cursive;
 /*Heading start*/
 
 .main-container-body-item-display-component-box-item.headings {
-	font-family: var(--sub-font1);
-	font-family: var(--sub-font2);
+	font-family: 'Heebo', sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	padding: 0.5rem;
 }
 
 .smalltext {
 	font-size: 1rem;
-	font-family: var(--sub-font1);
-	font-family: var(--sub-font2);
+	font-family: 'Heebo', sans-serif;
+	font-family: 'PT Sans', sans-serif;
 }
 
-.var(--main-background-color);text {
-	font-family: var(--sub-font1);
-	font-family: var(--sub-font2);
-	color: var(--main-background-color);;
+.greytext {
+	font-family: 'Heebo', sans-serif;
+	font-family: 'PT Sans', sans-serif;
+	color: grey;
 }
 
 .centeredtext {
-	font-family: var(--sub-font1);
-	font-family: var(--sub-font2);
+	font-family: 'Heebo', sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	text-align: center;
 }
 
@@ -839,8 +831,9 @@ cursive;
 /*List start*/
 
 .main-container-body-item-display-component-box-item.normal-list ul {
-	font-family: var(--sub-font1);
-	font-family: var(--sub-font2);
+	font-family: 'Heebo', sans-serif;
+	font-family: 'PT Sans', sans-serif;
+
 }
 
 .list-type-disc {
@@ -933,7 +926,7 @@ cursive;
 
 .overlay-modal {
 	position: fixed;
-	background-color: var(--main-background-color);;
+	background-color: grey;
 	z-index: 100;
 	opacity: 80%;
 	color: black;
@@ -961,7 +954,7 @@ cursive;
 
 .modal-box-content {
 	padding: 1rem;
-	min-height: 6.25rem;
+	min-height: 100px;
 }
 
 .modal-box-header .icon-cancel {
@@ -1031,46 +1024,44 @@ cursive;
 
 
 /*grid start template area*/
-
-.main-container-body-item-display-component-box-item.grid-container {
+.main-container-body-item-display-component-box-item.grid-container{
 	justify-content: center;
 }
-
 .grid-layout-wrapper-template {
 	display: grid;
 	justify-content: center;
 	grid-template-areas: "grid-layout-temp-header grid-layout-temp-header grid-layout-temp-header" "grid-layout-temp-sidebar-left grid-layout-temp-content grid-layout-temp-sidebar-right" "grid-layout-temp-sidebar-left grid-layout-temp-content grid-layout-temp-sidebar-right" "grid-layout-temp-footer grid-layout-temp-footer grid-layout-temp-footer";
 	height: 50vh;
-	gap: 0.2rem;
+	gap:0.2rem;
 }
 
 .grid-layout-temp-header {
 	background-color: blue;
-	padding: 1.875rem;
+	padding: 30px;
 	grid-area: grid-layout-temp-header;
 }
 
 .grid-layout-temp-sidebar-left {
 	background-color: red;
-	padding: 1.875rem;
+	padding: 30px;
 	grid-area: grid-layout-temp-sidebar-left;
 }
 
 .grid-layout-temp-sidebar-right {
 	background-color: red;
-	padding: 1.875rem;
+	padding: 30px;
 	grid-area: grid-layout-temp-sidebar-right;
 }
 
 .grid-layout-temp-content {
 	background-color: yellow;
-	padding: 1.875rem;
+	padding: 30px;
 	grid-area: grid-layout-temp-content;
 }
 
 .grid-layout-temp-footer {
-	background-color: var(--main-background-color);;
-	padding: 1.875rem;
+	background-color: grey;
+	padding: 30px;
 	grid-area: grid-layout-temp-footer;
 }
 
@@ -1085,27 +1076,27 @@ cursive;
 
 .grid-layout-header {
 	background-color: blue;
-	padding: 1.875rem;
+	padding: 30px;
 	grid-column: 1/5;
 }
 
 .grid-layout-sidebar {
 	background-color: red;
-	padding: 1.875rem;
+	padding: 30px;
 	grid-column: 1/3;
 	grid-row: 2/10;
 }
 
 .grid-layout-content {
 	background-color: yellow;
-	padding: 1.875rem;
+	padding: 30px;
 	grid-column: 3/5;
 	grid-row: 2/10;
 }
 
 .grid-layout-footer {
-	background-color: var(--main-background-color);;
-	padding: 1.875rem;
+	background-color: grey;
+	padding: 30px;
 	grid-column: 1/5;
 }
 
@@ -1126,10 +1117,11 @@ cursive;
 }
 
 @media only screen and (max-width: 900px) {
+
 	.main-container-body-item-display-component-box-item.card-component-ver {
 		flex-direction: column;
 	}
-	.main-container-body-item-display-component-box-item.normal-list ul {
+	.main-container-body-item-display-component-box-item.normal-list ul{
 		padding: 0;
 	}
 	.main-container-body-item-display-component-box-item.button-float-container {
@@ -1137,14 +1129,16 @@ cursive;
 		padding: 1rem;
 	}
 	.main-container-body-item-display-component-box {
+
 		padding: 0.2rem;
 	}
-	.main-container-body {
-		padding: 0.3rem;
-	}
-	.main-container-body-item-display-component {
-		padding: 0;
-	}
+    .main-container-body {
+        padding: 0.3rem;
+    }
+    .main-container-body-item-display-component {
+        padding: 0;
+    }
+    
 	.card-image {
 		width: 30rem;
 		max-width: 100%;
@@ -1161,9 +1155,11 @@ cursive;
 	}
 	.main-container-nav {
 		border-right: 0;
-		box-shadow: 0 8px 6px -6px var(--main-background-color);;
+		box-shadow: 0 8px 6px -6px grey;
 	}
 	.main-container-body-item-display-component-box-item {
 		flex-direction: column;
+		
 	}
 }
+
