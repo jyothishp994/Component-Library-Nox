@@ -5,7 +5,7 @@
 	--main-font: 'Rowdies', cursive;
 	--sub-font1: 'Heebo', sans-serif;
 	--sub-font2: 'PT Sans', sans-serif;
-	--main-background-color:grey;
+	--main-background-color:var(--main-background-color);;
 }
 
 body {
@@ -126,7 +126,7 @@ a:active {
 
 .main-container-body-item-display-component-box {
 	height: auto;
-	background-color: lightvar(--main-background-color);;
+	background-color: var(--main-background-color);;
 	border-radius: 1rem;
 	padding: 1rem;
 }
